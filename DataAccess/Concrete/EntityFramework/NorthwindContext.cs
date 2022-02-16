@@ -10,6 +10,7 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class NorthwindContext:DbContext
     {
+        //tryy
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=EMIRHANGOL\SQLEXPRESS;Database=Northwind;Trusted_Connection=true");
