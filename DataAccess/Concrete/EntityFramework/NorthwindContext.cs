@@ -10,6 +10,7 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class NorthwindContext:DbContext
     {
+        //try 2
         //tryy
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
